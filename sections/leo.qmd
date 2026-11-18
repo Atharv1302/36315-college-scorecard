@@ -1,0 +1,26 @@
+<!-- Owner: Leo. Edit only this file. -->
+
+## Research question: [PUT QUESTION HERE]
+
+```{r}
+#| label: setup-leo
+#| include: false
+source(here::here("R/theme.R"))
+sc <- readr::read_csv(here::here("data/scorecard_clean.csv"), show_col_types = FALSE)
+```
+
+### Graph 1
+
+```{r}
+#| label: leo-graph-1
+```
+
+[Interpretation]
+
+### Graph 2
+
+```{r}
+#| label: leo-graph-2
+```
+
+[Interpretation]

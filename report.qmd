@@ -1,0 +1,29 @@
+---
+title: "[Report title]"
+author: "Riyana, Leo, Leonard, and Atharv"
+date: today
+format:
+  html:
+    embed-resources: true
+    toc: true
+    code-fold: true
+execute:
+  warning: false
+  message: false
+---
+
+## Introduction
+
+[Dataset, why it matters, and the four research questions.]
+
+{{< include sections/riyana.qmd >}}
+
+{{< include sections/leonard.qmd >}}
+
+{{< include sections/atharv.qmd >}}
+
+{{< include sections/leo.qmd >}}
+
+## Conclusion
+
+[What the graphs show together.]

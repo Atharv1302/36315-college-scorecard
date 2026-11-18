@@ -1,0 +1,17 @@
+# Raw Scorecard download is too big for GitHub. Keep it on the shared Google Drive.
+data/raw/
+*.zip
+
+# R / RStudio
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# Quarto render output
+/.quarto/
+report_files/
+report.html
+*_cache/
+
+.DS_Store
